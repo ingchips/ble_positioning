@@ -1,0 +1,366 @@
+Dependencies for Project 'uart_console', Target 'Target 1': (DO NOT MODIFY !)
+F (.\src\main.c)(0x62AB0AF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O1 --apcs=interwork --split_sections -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src -I ../../SDK_Project/src/StartUP/ing918 --gnu-ID:\Users\11248\ING_SDK\sdk\examples\ingchips_AoA\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-D__UVISION_VERSION="521" -D_RTE_ -DUSE_STDPERIPH_DRIVER -Diprintf="platform_printf" -DTRACE_BUFF_SIZE="1024"-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (src\profile.h)(0x6233EFEC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (../../src/StartUP/ing918/ingsoc.h)(0x6260C5CC)
+I (../../src/StartUP/ing918/../__ingsoc.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625B70C)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (../../src/FWlib/peripheral_uart.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_gpio.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_sysctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_i2c.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pinctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_rtc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_ssp.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_timer.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_adc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pwm.h)(0x6260C5CC)
+I (../../bundles/typical/inc/platform_api.h)(0x627DC4B2)
+I (../../bundles/typical/inc/ll_api.h)(0x627DC4B2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (../../src/Tools/trace.h)(0x6260C5CC)
+I (../../bundles/typical/inc/os/FreeRTOS.h)(0x6260C5CA)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (../../bundles/typical/inc/os/FreeRTOSConfig.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/projdefs.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/portable.h)(0x628B4044)
+I (../../bundles/typical/inc/os/deprecated_definitions.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/portmacro.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/./portable/RVDS/ARM_CM3/portmacro.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/mpu_wrappers.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/task.h)(0x627DC4B2)
+I (../../bundles/typical/inc/os/list.h)(0x627DC4B2)
+I (../../bundles/typical/inc/os/semphr.h)(0x627DC4B2)
+I (../../bundles/typical/inc/os/queue.h)(0x627DC4B2)
+I (../../src/Tools/SEGGER_RTT.h)(0x6260C5CC)
+I (../../src/Tools/SEGGER_RTT_Conf.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (../../src/BSP/eflash.h)(0x6260C5CC)
+F (.\src\profile.c)(0x62B536C0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O1 --apcs=interwork --split_sections -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src -I ../../SDK_Project/src/StartUP/ing918 --gnu-ID:\Users\11248\ING_SDK\sdk\examples\ingchips_AoA\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-D__UVISION_VERSION="521" -D_RTE_ -DUSE_STDPERIPH_DRIVER -Diprintf="platform_printf" -DTRACE_BUFF_SIZE="1024"-o .\output\profile.o --omf_browse .\output\profile.crf --depend .\output\profile.d)
+I (../../bundles/typical/inc/platform_api.h)(0x627DC4B2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (../../src/StartUP/ing918/ingsoc.h)(0x6260C5CC)
+I (../../src/StartUP/ing918/../__ingsoc.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625B70C)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (../../src/FWlib/peripheral_uart.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_gpio.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_sysctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_i2c.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pinctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_rtc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_ssp.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_timer.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_adc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pwm.h)(0x6260C5CC)
+I (../../bundles/typical/inc/ll_api.h)(0x627DC4B2)
+I (src\profile.h)(0x6233EFEC)
+I (../../bundles/typical/inc/att_db.h)(0x627DC4B0)
+I (../../bundles/typical/inc/bluetooth.h)(0x6260C5CA)
+I (../../bundles/typical/inc/bt_types.h)(0x6260C5CA)
+I (../../bundles/typical/inc/btstack_linked_list.h)(0x6260C5CA)
+I (../../bundles/typical/inc/gap.h)(0x627DC4B0)
+I (../../bundles/typical/inc/btstack_event.h)(0x627DC4B0)
+I (../../src/StartUP/ing918/compiler.h)(0x6260C5CC)
+I (../../bundles/typical/inc/btstack_util.h)(0x627DC4B0)
+I (../../bundles/typical/inc/btstack_defines.h)(0x6260C5CA)
+I (../../bundles/typical/inc/gatt_client.h)(0x627DC4B0)
+I (../../src/Tools/sig_uuid.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (../../src/Tools/str_util.h)(0x6260C5CC)
+I (../../src/Tools/trace.h)(0x6260C5CC)
+I (../../bundles/typical/inc/os/FreeRTOS.h)(0x6260C5CA)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (../../bundles/typical/inc/os/FreeRTOSConfig.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/projdefs.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/portable.h)(0x628B4044)
+I (../../bundles/typical/inc/os/deprecated_definitions.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/portmacro.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/./portable/RVDS/ARM_CM3/portmacro.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/mpu_wrappers.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/task.h)(0x627DC4B2)
+I (../../bundles/typical/inc/os/list.h)(0x627DC4B2)
+I (../../bundles/typical/inc/os/semphr.h)(0x627DC4B2)
+I (../../bundles/typical/inc/os/queue.h)(0x627DC4B2)
+I (../../src/Tools/SEGGER_RTT.h)(0x6260C5CC)
+I (../../src/Tools/SEGGER_RTT_Conf.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (../../bundles/typical/inc/sm.h)(0x627DC4B2)
+I (src\uart_console.h)(0x62B1288F)
+I (src\AoA_service.h)(0x62B536CF)
+I (../../bundles/typical/inc/os/timers.h)(0x627DC4B2)
+I (../../src/Tools/gatt_client_util.h)(0x6260C5CC)
+I (src\../data/gatt.const)(0x6260C5CC)
+I (src\../data/advertising.const)(0x6260C5CC)
+I (src\../data/advertising.adv)(0x6260C5CC)
+I (src\../data/scan_response.adv)(0x6260C5CC)
+I (src\../data/gatt.profile)(0x6260C5CC)
+F (.\src\uart_console.c)(0x62B40FDD)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O1 --apcs=interwork --split_sections -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src -I ../../SDK_Project/src/StartUP/ing918 --gnu-ID:\Users\11248\ING_SDK\sdk\examples\ingchips_AoA\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-D__UVISION_VERSION="521" -D_RTE_ -DUSE_STDPERIPH_DRIVER -Diprintf="platform_printf" -DTRACE_BUFF_SIZE="1024"-o .\output\uart_console.o --omf_browse .\output\uart_console.crf --depend .\output\uart_console.d)
+I (src\uart_console.h)(0x62B1288F)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (src\AoA_service.h)(0x62B536CF)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (../../bundles/typical/inc/platform_api.h)(0x627DC4B2)
+I (../../src/StartUP/ing918/ingsoc.h)(0x6260C5CC)
+I (../../src/StartUP/ing918/../__ingsoc.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625B70C)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (../../src/FWlib/peripheral_uart.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_gpio.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_sysctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_i2c.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pinctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_rtc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_ssp.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_timer.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_adc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pwm.h)(0x6260C5CC)
+I (../../bundles/typical/inc/ll_api.h)(0x627DC4B2)
+I (src\profile.h)(0x6233EFEC)
+I (../../bundles/typical/inc/os/FreeRTOS.h)(0x6260C5CA)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (../../bundles/typical/inc/os/FreeRTOSConfig.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/projdefs.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/portable.h)(0x628B4044)
+I (../../bundles/typical/inc/os/deprecated_definitions.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/portmacro.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/./portable/RVDS/ARM_CM3/portmacro.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/mpu_wrappers.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/task.h)(0x627DC4B2)
+I (../../bundles/typical/inc/os/list.h)(0x627DC4B2)
+I (../../bundles/typical/inc/os/timers.h)(0x627DC4B2)
+I (../../bundles/typical/inc/bluetooth.h)(0x6260C5CA)
+F (.\src\AOA_service.c)(0x62B54FCE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O1 --apcs=interwork --split_sections -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src -I ../../SDK_Project/src/StartUP/ing918 --gnu-ID:\Users\11248\ING_SDK\sdk\examples\ingchips_AoA\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-D__UVISION_VERSION="521" -D_RTE_ -DUSE_STDPERIPH_DRIVER -Diprintf="platform_printf" -DTRACE_BUFF_SIZE="1024"-o .\output\aoa_service.o --omf_browse .\output\aoa_service.crf --depend .\output\aoa_service.d)
+I (src\AoA_service.h)(0x62B536CF)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (../../bundles/typical/inc/platform_api.h)(0x627DC4B2)
+I (../../src/StartUP/ing918/ingsoc.h)(0x6260C5CC)
+I (../../src/StartUP/ing918/../__ingsoc.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625B70C)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (../../src/FWlib/peripheral_uart.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_gpio.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_sysctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_i2c.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pinctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_rtc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_ssp.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_timer.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_adc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pwm.h)(0x6260C5CC)
+I (../../bundles/typical/inc/ll_api.h)(0x627DC4B2)
+I (src\profile.h)(0x6233EFEC)
+I (../../bundles/typical/inc/os/FreeRTOS.h)(0x6260C5CA)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (../../bundles/typical/inc/os/FreeRTOSConfig.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/projdefs.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/portable.h)(0x628B4044)
+I (../../bundles/typical/inc/os/deprecated_definitions.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/portmacro.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/./portable/RVDS/ARM_CM3/portmacro.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/mpu_wrappers.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/task.h)(0x627DC4B2)
+I (../../bundles/typical/inc/os/list.h)(0x627DC4B2)
+I (../../bundles/typical/inc/os/timers.h)(0x627DC4B2)
+F (.\src\startup_ing91800.s)(0x6233EFEC)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\Users\11248\ING_SDK\sdk\examples\ingchips_AoA\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1"--list .\listing\startup_ing91800.lst --xref -o .\output\startup_ing91800.o --depend .\output\startup_ing91800.d)
+F (..\..\bundles\typical\ING9185xx\symdefs.m)(0x628B4044)()
+F (..\..\src\BSP\eflash.c)(0x6260C5CC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O1 --apcs=interwork --split_sections -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src -I ../../SDK_Project/src/StartUP/ing918 --gnu-ID:\Users\11248\ING_SDK\sdk\examples\ingchips_AoA\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-D__UVISION_VERSION="521" -D_RTE_ -DUSE_STDPERIPH_DRIVER -Diprintf="platform_printf" -DTRACE_BUFF_SIZE="1024"-o .\output\eflash.o --omf_browse .\output\eflash.crf --depend .\output\eflash.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\..\src\BSP\eflash.h)(0x6260C5CC)
+I (../../src/StartUP/ing918/ingsoc.h)(0x6260C5CC)
+I (../../src/StartUP/ing918/../__ingsoc.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625B70C)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (../../src/FWlib/peripheral_uart.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_gpio.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_sysctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_i2c.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pinctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_rtc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_ssp.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_timer.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_adc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pwm.h)(0x6260C5CC)
+I (..\..\src\BSP\eflash.inc)(0x6260C5CC)
+F (../..\src\FWlib\peripheral_uart.c)(0x6260C5CC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O1 --apcs=interwork --split_sections -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src -I ../../SDK_Project/src/StartUP/ing918 --gnu-ID:\Users\11248\ING_SDK\sdk\examples\ingchips_AoA\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-D__UVISION_VERSION="521" -D_RTE_ -DUSE_STDPERIPH_DRIVER -Diprintf="platform_printf" -DTRACE_BUFF_SIZE="1024"-o .\output\peripheral_uart.o --omf_browse .\output\peripheral_uart.crf --depend .\output\peripheral_uart.d)
+I (../..\src\FWlib\peripheral_uart.h)(0x6260C5CC)
+I (../../src/StartUP/ing918/ingsoc.h)(0x6260C5CC)
+I (../../src/StartUP/ing918/../__ingsoc.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625B70C)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (../../src/FWlib/peripheral_uart.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_gpio.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_sysctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_i2c.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pinctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_rtc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_ssp.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_timer.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_adc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pwm.h)(0x6260C5CC)
+F (../..\src\FWlib\peripheral_sysctrl.c)(0x6260C5CC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O1 --apcs=interwork --split_sections -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src -I ../../SDK_Project/src/StartUP/ing918 --gnu-ID:\Users\11248\ING_SDK\sdk\examples\ingchips_AoA\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-D__UVISION_VERSION="521" -D_RTE_ -DUSE_STDPERIPH_DRIVER -Diprintf="platform_printf" -DTRACE_BUFF_SIZE="1024"-o .\output\peripheral_sysctrl.o --omf_browse .\output\peripheral_sysctrl.crf --depend .\output\peripheral_sysctrl.d)
+I (../../src/StartUP/ing918/ingsoc.h)(0x6260C5CC)
+I (../../src/StartUP/ing918/../__ingsoc.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625B70C)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (../../src/FWlib/peripheral_uart.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_gpio.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_sysctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_i2c.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pinctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_rtc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_ssp.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_timer.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_adc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pwm.h)(0x6260C5CC)
+F (..\..\src\FWlib\peripheral_pinctrl.c)(0x6260C5CC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O1 --apcs=interwork --split_sections -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src -I ../../SDK_Project/src/StartUP/ing918 --gnu-ID:\Users\11248\ING_SDK\sdk\examples\ingchips_AoA\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-D__UVISION_VERSION="521" -D_RTE_ -DUSE_STDPERIPH_DRIVER -Diprintf="platform_printf" -DTRACE_BUFF_SIZE="1024"-o .\output\peripheral_pinctrl.o --omf_browse .\output\peripheral_pinctrl.crf --depend .\output\peripheral_pinctrl.d)
+I (../../src/StartUP/ing918/ingsoc.h)(0x6260C5CC)
+I (../../src/StartUP/ing918/../__ingsoc.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625B70C)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (../../src/FWlib/peripheral_uart.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_gpio.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_sysctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_i2c.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pinctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_rtc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_ssp.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_timer.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_adc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pwm.h)(0x6260C5CC)
+F (..\..\src\Tools\trace.c)(0x6260C5CC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O1 --apcs=interwork --split_sections -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src -I ../../SDK_Project/src/StartUP/ing918 --gnu-ID:\Users\11248\ING_SDK\sdk\examples\ingchips_AoA\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-D__UVISION_VERSION="521" -D_RTE_ -DUSE_STDPERIPH_DRIVER -Diprintf="platform_printf" -DTRACE_BUFF_SIZE="1024"-o .\output\trace.o --omf_browse .\output\trace.crf --depend .\output\trace.d)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\..\src\Tools\trace.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (../../bundles/typical/inc/os/FreeRTOS.h)(0x6260C5CA)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (../../bundles/typical/inc/os/FreeRTOSConfig.h)(0x6260C5CA)
+I (../../src/StartUP/ing918/ingsoc.h)(0x6260C5CC)
+I (../../src/StartUP/ing918/../__ingsoc.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625B70C)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (../../src/FWlib/peripheral_uart.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_gpio.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_sysctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_i2c.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pinctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_rtc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_ssp.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_timer.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_adc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pwm.h)(0x6260C5CC)
+I (../../bundles/typical/inc/os/projdefs.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/portable.h)(0x628B4044)
+I (../../bundles/typical/inc/os/deprecated_definitions.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/portmacro.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/./portable/RVDS/ARM_CM3/portmacro.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/mpu_wrappers.h)(0x6260C5CA)
+I (../../bundles/typical/inc/os/task.h)(0x627DC4B2)
+I (../../bundles/typical/inc/os/list.h)(0x627DC4B2)
+I (../../bundles/typical/inc/os/semphr.h)(0x627DC4B2)
+I (../../bundles/typical/inc/os/queue.h)(0x627DC4B2)
+I (../../bundles/typical/inc/platform_api.h)(0x627DC4B2)
+I (../../bundles/typical/inc/ll_api.h)(0x627DC4B2)
+I (..\..\src\Tools\SEGGER_RTT.h)(0x6260C5CC)
+I (..\..\src\Tools\SEGGER_RTT_Conf.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\src\Tools\SEGGER_RTT.c)(0x6260C5CC)
+I (../../src/BSP/eflash.h)(0x6260C5CC)
+I (../../bundles/typical/inc/btstack_event.h)(0x627DC4B0)
+I (../../bundles/typical/inc/bluetooth.h)(0x6260C5CA)
+I (../../src/StartUP/ing918/compiler.h)(0x6260C5CC)
+I (../../bundles/typical/inc/btstack_util.h)(0x627DC4B0)
+I (../../bundles/typical/inc/gap.h)(0x627DC4B0)
+I (../../bundles/typical/inc/bt_types.h)(0x6260C5CA)
+I (../../bundles/typical/inc/btstack_linked_list.h)(0x6260C5CA)
+I (../../bundles/typical/inc/att_db.h)(0x627DC4B0)
+F (..\..\src\Tools\str_util.c)(0x628B4046)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O1 --apcs=interwork --split_sections -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src -I ../../SDK_Project/src/StartUP/ing918 --gnu-ID:\Users\11248\ING_SDK\sdk\examples\ingchips_AoA\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-D__UVISION_VERSION="521" -D_RTE_ -DUSE_STDPERIPH_DRIVER -Diprintf="platform_printf" -DTRACE_BUFF_SIZE="1024"-o .\output\str_util.o --omf_browse .\output\str_util.crf --depend .\output\str_util.d)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\..\src\Tools\str_util.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (../../src/StartUP/ing918/ingsoc.h)(0x6260C5CC)
+I (../../src/StartUP/ing918/../__ingsoc.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625B70C)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (../../src/FWlib/peripheral_uart.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_gpio.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_sysctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_i2c.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pinctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_rtc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_ssp.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_timer.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_adc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pwm.h)(0x6260C5CC)
+F (..\..\src\Tools\gatt_client_util.c)(0x6260C5CC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O1 --apcs=interwork --split_sections -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src -I ../../SDK_Project/src/StartUP/ing918 --gnu-ID:\Users\11248\ING_SDK\sdk\examples\ingchips_AoA\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-D__UVISION_VERSION="521" -D_RTE_ -DUSE_STDPERIPH_DRIVER -Diprintf="platform_printf" -DTRACE_BUFF_SIZE="1024"-o .\output\gatt_client_util.o --omf_browse .\output\gatt_client_util.crf --depend .\output\gatt_client_util.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (..\..\src\Tools\gatt_client_util.h)(0x6260C5CC)
+I (../../bundles/typical/inc/gatt_client.h)(0x627DC4B0)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (../../bundles/typical/inc/bluetooth.h)(0x6260C5CA)
+I (../../bundles/typical/inc/bt_types.h)(0x6260C5CA)
+I (../../bundles/typical/inc/btstack_linked_list.h)(0x6260C5CA)
+I (../../bundles/typical/inc/btstack_util.h)(0x627DC4B0)
+I (../../bundles/typical/inc/btstack_event.h)(0x627DC4B0)
+I (../../src/StartUP/ing918/compiler.h)(0x6260C5CC)
+I (../../bundles/typical/inc/gap.h)(0x627DC4B0)
+I (../../bundles/typical/inc/platform_api.h)(0x627DC4B2)
+I (../../src/StartUP/ing918/ingsoc.h)(0x6260C5CC)
+I (../../src/StartUP/ing918/../__ingsoc.h)(0x6260C5CC)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625B70C)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (../../src/FWlib/peripheral_uart.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_gpio.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_sysctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_i2c.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pinctrl.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_rtc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_ssp.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_timer.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_adc.h)(0x6260C5CC)
+I (../../src/FWlib/peripheral_pwm.h)(0x6260C5CC)
+I (../../bundles/typical/inc/ll_api.h)(0x627DC4B2)
+I (../../bundles/typical/inc/att_db.h)(0x627DC4B0)
+I (../../bundles/typical/inc/btstack_defines.h)(0x6260C5CA)
+I (..\..\src\Tools\sig_uuid.h)(0x6260C5CC)
