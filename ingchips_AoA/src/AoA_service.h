@@ -24,10 +24,10 @@
 * Modifying MQTT_TOPIC_NAME is prohibited!!!
 */
 #define MQTT_WIFI_NAME     "INGCHIPS"
-#define MQTT_WIFI_PASSWORD "ING-123!"
+#define MQTT_WIFI_PASSWORD "yourPassword"
 #define MQTT_CLIENT_ID     "123"
 #define MQTT_PASSWORD      "123456"
-#define MQTT_USER_NAME     "liyuhang"
+#define MQTT_USER_NAME     "userName"
 #define MQTT_HOST_NAME     "192.168.3.5"
 #define MQTT_PORT_NUMBER    1883
 #define MQTT_TOPIC_NAME    "ingchips/iq_report"
