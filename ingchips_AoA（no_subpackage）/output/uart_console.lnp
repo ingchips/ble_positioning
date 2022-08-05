@@ -1,0 +1,18 @@
+--cpu Cortex-M3
+".\output\main.o"
+".\output\profile.o"
+".\output\uart_console.o"
+".\output\aoa_service.o"
+".\output\startup_ing91800.o"
+"..\..\bundles\typical\ING9185xx\symdefs.m"
+".\output\eflash.o"
+".\output\peripheral_uart.o"
+".\output\peripheral_sysctrl.o"
+".\output\peripheral_pinctrl.o"
+".\output\trace.o"
+".\output\str_util.o"
+".\output\gatt_client_util.o"
+--library_type=microlib --strict --scatter ".\output\uart_console.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\listing\uart_console.map" -o .\output\uart_console.axf

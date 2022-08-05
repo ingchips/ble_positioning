@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "profile.h": "c",
+        "*.const": "c",
+        "aoa_service.h": "c"
+    }
+}
