@@ -21,51 +21,42 @@ def publish(client: mqtt_client, msg):
     publish_to_topic(client, publish_topic, msg)
 
 async def connect_aoa():
-    return await asyncio.create_subprocess_exec('alg', stdout=PIPE, stdin=PIPE)
-
+    global aoa_server
+    aoa_server = await asyncio.create_subprocess_exec('alg', '-alg2', stdout=PIPE, stdin=PIPE)
 
 async def exec(client, dec):
-    aoa_server = await connect_aoa()
-
+    global aoa_server
     addr = dec[0:17]
     # print(addr)
     pack = dec[17:]
     # print(pack)
     try:
-        try:
-            aoa_server.stdin.write(pack.encode())
-            result = await asyncio.wait_for(aoa_server.stdout.readline(), 1)
-        except asyncio.TimeoutError:
-            print("run: except asyncio.TimeoutError:")
-            pass
-        else:
-            if result:
-                content = json.loads(result.decode())
-                status  = content["status"]
+        aoa_server.stdin.write(pack.encode())
+        result = await asyncio.wait_for(aoa_server.stdout.readline(), 1)
+    except asyncio.TimeoutError:
+        print("run: except asyncio.TimeoutError:")
+        pass
+    else:
+        if result:
+            content = json.loads(result.decode())
+            status  = content["status"]
 
-                if status != 'ok':
-                    return
+            if status != 'ok':
+                return
 
-                id        = content["id"]
-                azimuth   = content["azimuth"]
-                elevation = content["elevation"]
-                item_dict = {
-                    "status": status,
-                    "addr": addr,
-                    "id": id,
-                    "azimuth": azimuth,
-                    "elevation": elevation,
-                }
+            id        = content["id"]
+            azimuth   = content["azimuth"]
+            elevation = content["elevation"]
+            item_dict = {
+                "status": status,
+                "addr": addr,
+                "id": id,
+                "azimuth": azimuth,
+                "elevation": elevation,
+            }
 
-                # print(pack)
-                publish(client, json.dumps(item_dict))
-
-                publish_to_topic(client, addr[1], json.dumps({
-                    "azimuth": azimuth,
-                    "elevation": elevation,
-                }))
-    finally:
-        aoa_server.kill()
+            # print(pack)
+            publish(client, json.dumps(item_dict))
 
 def subscribe(client: mqtt_client, loop):
     def on_message(client, userdata, msg):
@@ -100,12 +91,15 @@ def connect_mqtt():
     client = mqtt_client.Client(client_id)
     client.username_pw_set(username, password)
     client.on_connect = on_connect
-    client.connect(broker, port, keepalive)
+
     if sys.platform == "win32":
         loop = asyncio.ProactorEventLoop()  # For subprocess' pipes on Windows
         asyncio.set_event_loop(loop)
     else:
         loop = asyncio.get_event_loop()
+    loop.run_until_complete(connect_aoa())
+
+    client.connect(broker, port, keepalive)
 
     return client
 
