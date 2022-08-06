@@ -32,41 +32,36 @@
 #define MQTT_PORT_NUMBER    1883
 #define MQTT_TOPIC_NAME    "ingchips/iq_report"
 
-#define AoA_DEVICE_NUM_MAX        3
-#define AoA_DEVICE_ADDR_LEN       17
-#define AoA_SETUP_HEARBEAT_MS     1000
-#define AoA_IQ_STR_BUFFER_LEN     300
-#define AoA_IQ_STR_BUFFER_LEN_TMP 200
-#define AoA_IQ_REPORT_TIME_MS     90  // The value between *80-120* is recommended.
-#define AoA_IQ_STR_LEN_FIRST      ((100) + (AoA_DEVICE_ADDR_LEN))
-#define AoA_IQ_STR_LEN_SECOND     155
-#define AoA_IQ_STR_LEN_CHECK      10
-#define AoA_IQ_STR_LEN_FIRST_CP   ((AoA_IQ_STR_LEN_FIRST) - (AoA_IQ_STR_LEN_CHECK))
-
-typedef uint8_t *sequence_t;
-typedef uint8_t deviceAddr_t[6];
-typedef struct deviceInfo {
-	int8_t deviceAddr[AoA_DEVICE_ADDR_LEN];					
-	int8_t iq_str_buffer[AoA_IQ_STR_BUFFER_LEN];
-	int8_t iq_str_buffer_tmp[AoA_IQ_STR_BUFFER_LEN_TMP];
-} __attribute__ ((packed)) deviceInfo_t;
-extern deviceInfo_t g_deviceList[AoA_DEVICE_NUM_MAX];
+#define AoA_DEVICE_NUM_MAX   	1
+#define AoA_DEVICE_ADDR_LEN 	17
+#define AoA_SETUP_HEARBEAT_MS   1000
+#define AoA_IQ_STR_BUFFER_LEN 	300
+#define AoA_IQ_REPORT_TIME_MS 	90  // The value between *80-120* is recommended.
 
 extern TimerHandle_t AoA_iqReportProcessTimer;
 extern int8_t  g_devNum;
+extern int16_t g_iqReportStrLen;
+extern int8_t  g_iq_str_buffer[AoA_IQ_STR_BUFFER_LEN];
+typedef struct deviceInfo {
+	int8_t deviceAddr[AoA_DEVICE_ADDR_LEN];					
+	int8_t iq_str_buffer[AoA_IQ_STR_BUFFER_LEN];
+} __attribute__ ((packed)) deviceInfo_t;
+extern deviceInfo_t g_deviceList[AoA_DEVICE_NUM_MAX];
 extern uint8_t slave_addr[];
+typedef uint8_t addrStr[AoA_DEVICE_ADDR_LEN + 1];
+
 #if AoA_MANAUL_SETUP_ARRAY
 extern int8_t g_checkNewFlg;
+void AoA_SetAddrStrMapByUart(char *addr);
+extern addrStr AoA_addrStrMap[3];
 #else
+typedef uint8_t *sequence_t;
+typedef uint8_t deviceAddr_t[6];
 extern int8_t g_deviceConnected;
 extern int8_t g_deviceDisonnected;
 extern uint16_t AoA_arrayChecker[2][AoA_DEVICE_NUM_MAX];
-extern int8_t g_deviceSubFlg;
-extern int8_t g_deviceSub;
+extern addrStr AoA_addrStrMap[AoA_DEVICE_NUM_MAX];
 #endif
 
-void Delay(int time);
 void AoA_ServiceInit(void);
-void AoA_MQTT_Setup_8266(void);
-
 #endif
