@@ -33,7 +33,7 @@ def subscribe(client: mqtt_client):
         if data2["status"] != "ok":
             return
 
-        if data2["elevation"] < station_def["min_evelation"]:
+        if data2["elevation"] < station_def["min_elevation"]:
             return
 
         if not (data2['addr'] in station_def):
